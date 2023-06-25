@@ -104,7 +104,7 @@ router.post('/signin', async (req, res) => {
             } else {
                 return res.status(400).json({
                     status: "failed",
-                    message: "not a valid password"
+                    message: "Wrong password...!"
                 })
             }
         })
